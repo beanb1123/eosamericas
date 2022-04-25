@@ -1,0 +1,71 @@
+{
+  "producer_account_name": "eosswedenorg",
+  "org": {
+    "candidate_name": "Sw/eden🌿",
+    "website": "https://eossweden.org",
+    "code_of_conduct":"https://eossweden.org/code-of-conduct/",
+	"ownership_disclosure":"https://eossweden.org/code-of-conduct/#Ownership",
+  "chain_resources": "https://snapshots.eossweden.org",
+    "email":"community@eossweden.org",
+    "github_user": ["xebb82", "coachbjork", "pnx"],
+    "branding":{
+      "logo_256":"https://eossweden.org/logo/logo-256.png",
+      "logo_1024":"https://eossweden.org/logo/logo-1024.png",
+      "logo_svg":"https://eossweden.org/logo/sw-eden-teal.svg"
+    },
+    "location": {
+      "name": "Sweden",
+      "country": "SE",
+      "latitude": 59.6268,
+      "longitude": 16.5440
+    },
+    "social": {
+      "steemit": "eossweden",
+      "twitter": "eossweden",
+      "youtube": "channel/UCtU6EBVLcDMGFpUXpPbXKkw",
+      "facebook": "EOS-sweden-554084258304426",
+      "github":"eosswedenorg",
+      "reddit": "eossweden",
+      "keybase": "xebb",
+      "telegram": "eossweden",
+      "wechat":"xebb82"
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "Sweden",
+        "country": "SE",
+        "latitude": 59.3322,
+        "longitude": 18.0707
+      },
+      "node_type": "producer"
+    },
+    {
+      "location": {
+        "name": "Sweden",
+        "country": "SE",
+        "latitude": 59.6268,
+        "longitude": 16.5440
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "p2p.eossweden.org:9876"
+    },
+    {
+      "location": {
+        "name": "Sweden",
+        "country": "SE",
+        "latitude": 59.3322,
+        "longitude": 18.0707
+      },
+      "node_type": "query",
+      "api_endpoint": "http://api.eossweden.org",
+      "ssl_endpoint": "https://api.eossweden.org",
+      "features": [
+        "chain-api",
+        "history-v1",
+        "hyperion-v2"
+      ]
+    }
+  ]
+}
